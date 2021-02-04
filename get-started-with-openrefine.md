@@ -12,7 +12,7 @@ If you're using a computer that already has OpenRefine installed on it, you can 
 
 ## 1. Install OpenRefine
 
-Head to www.openrefine.org/download and download OpenRefine 2.7 as you would any software. It's available for both Windows and Mac.
+Head to www.openrefine.org/download and download the latest version of OpenRefine as you would any software. It's available for both Windows and Mac.
 
 NOTE: If you're on a Mac and, when you try to open OpenRefine, you get a message saying that you can't open software from an unidentified developer, do the following: Go to **System Preferences**, then **Security and Privacy**. On the **General** tab, click the lock to make changes, and then click on **Open Anyway. **You should now be able open the software.
 
@@ -104,15 +104,8 @@ Click on the down arrow next to **VESSEL TYPE**. From the dropdown menu, click *
 
 [10]: images/get-started-with-openrefine/change-the-case-of-an-entire-column.png
 
-## 11. Get rid of extra whitespace
 
-One common problem with data is extra spaces before and after the values. Those are easy to get rid of with OpenRefine. On the **Year Built** column, click the down arrow, then click **Edit cells**, then **Common transforms**. Finally, click **Trim leading and trailing whitespace**. Much better!
-
-![][11]
-
-[11]: images/get-started-with-openrefine/get-rid-of-extra-whitespace.png
-
-## 12. Split multi-valued columns
+## 11. Split multi-valued columns
 
 Several of our columns contain location, formatted as City, State. But let's say we want states to appear in their own column. That's easy to do with OpenRefine.
 
@@ -124,7 +117,7 @@ You now have two columns! You can rename them by clicking on the down arrow, the
 
 [12]: images/get-started-with-openrefine/split-multi-valued-columns.png
 
-## 13. Undo an action
+## 12. Undo an action
 
 If you make a mistake in OpenRefine, no worries! It's easy to undo. Just click on the **Undo/Redo** link on the lefthand side of the screen. Then click on the next-to-last step in the list. Your last action will be reversed. If you change your mind about redoing it, you can just click the last step.
 
@@ -132,7 +125,7 @@ If you make a mistake in OpenRefine, no worries! It's easy to undo. Just click o
 
 [13]: images/get-started-with-openrefine/undo-an-action.png
 
-## 14. Add characters to selected data
+## 13. Add characters to selected data
 
 Let's say we want to add the prefix **S.S.** to the name of any boat that has the vessel type **schooner**. We'll do that by first using our vessel type facet to select all the rows with the term **schooner** in the **VESSEL TYPE** column.
 
@@ -156,7 +149,7 @@ Now the title of every schooner is prefaced with "S.S."!
 
 [14]: images/get-started-with-openrefine/add-characters-to-selected-data.png
 
-## 15. Export your data
+## 14. Export your data
 
 Once you've cleaned up your data, you'll want to get it out of OpenRefine. To do that, click on the **Export** button in the upper right-hand corner. Then click on **Comma-separated value**. Your cleaned-up spreadsheet should begin downloading. You can download your data as many times as you want, at any stage of the project.
 
@@ -166,7 +159,7 @@ To close OpenRefine, just close the window or tab in your browser.
 
 [15]: images/get-started-with-openrefine/export-your-data.png
 
-## 16. That's just the beginning!
+## 15. That's just the beginning!
 
 These are some of the most common tasks you'll want to perform in OpenRefine, but OpenRefine can also handle tasks of much greater complexity. To get a sense of some of these tasks, see the resources on the **OpenRefine Resources** page: [http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/openrefine-resources/](http://miriamposner.com/classes/dh101f17/tutorials-guides/data-manipulation/openrefine-resources/)
 

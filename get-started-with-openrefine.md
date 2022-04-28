@@ -10,6 +10,8 @@ This tutorial will walk you through some of the most common data-manipulation ta
 
 If you're using a computer that already has OpenRefine installed on it, you can skip Step One.
 
+**Before you get started**, please download [this file](https://www.dropbox.com/s/w8gz5oifkvh376q/NJShipwrecks.csv?dl=0) and save it somewhere on your computer. It's the messy sample data we'll be cleaning.
+
 ## 1. Install OpenRefine
 
 Head to www.openrefine.org/download and download the latest version of OpenRefine as you would any software. It's available for both Windows and Mac.
